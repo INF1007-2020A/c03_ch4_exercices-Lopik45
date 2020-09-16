@@ -3,12 +3,11 @@
 
 
 def is_even_len(string: str) -> bool:
-    longueur = len(string)
-    return longueur
+    return len(string)%2==0
 
 
 def remove_third_char(string: str) -> str:
-    nouvChaine = string[:3] + string[4:]
+    nouvChaine = string[:2] + string[3:]
     return nouvChaine
 
 
